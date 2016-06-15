@@ -1,0 +1,10 @@
+{% for post in site.posts %}
+    <div class="row blog-post">
+        <h4>{{ post.title }}</h4>
+        <small>Posted: {{ post.date | date_to_string }}</small>
+        <div class="blog-content">
+            {{ post.excerpt }}
+        </div>
+        <a href="{{ post.url }}">Read more...</a>
+    </div>
+{% endfor %}

@@ -1,0 +1,12 @@
+- title: LinkedIn
+  href: http://www.linkedin.com/pub/robert-newton/24/931/985
+  icon: briefcase
+- title: Github
+  href: http://github.com/rnewton
+  icon: github-alt
+- title: Coin Flip Games
+  href: https://coinflipgames.co
+  icon: gamepad
+- title: Email
+  href: 'mailto:robert@newtonmeters.com'
+  icon: envelope

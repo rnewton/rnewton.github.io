@@ -1,0 +1,5 @@
+<ul class="list-unstyled contact-links">
+    {% for link in site.data.links %}
+        <li><a href="{{ link.href }}"><span class="fa fa-{{ link.icon }}"></span> {{ link.title }}</a></li>
+    {% endfor %}
+</ul>

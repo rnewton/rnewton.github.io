@@ -1,0 +1,24 @@
+- name: emma
+  details: |
+    To aid in the development of future Löve games, I created a simple entity framework called 'emma'. Games benefit greatly
+    from the Entity/Component design pattern over a standard inheritance model. Code reuse is ensured through the use of mixins,
+    or components. Emma allows object organization through tags. Check out the source on
+    <a href="https://github.com/rnewton/emma">Github</a>
+  badges: [lua, love2d]
+- name: OPAuth
+  details: |
+    As part of some side-projects I was working on, I wanted to enable logins via
+    <a href="https://github.com/rnewton/opauth_reddit">reddit</a> and
+    <a href="https://github.com/rnewton/opauth_steam">steam</a>.
+  badges: [php]
+- name: Quantopian
+  details: |
+    I placed my <a href="https://www.quantopian.com/posts">Quantopian</a> algorithm for a lazy portfolio on
+    <a href="https://github.com/rnewton/quantopian">Github.</a> The strategy is to just take a few ETFs and maintain a percentage
+    balance checked on a daily basis. I replaced some more broad ETFs with more targeted ones in the green energy sector.
+  badges: [python]
+- name: desk
+  details: |
+    As a part of <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest 2015</a> I contributed some fixes and features to
+    the mini-workspace tool, desk.
+  badges: [bash, linux]

@@ -1,0 +1,131 @@
+- company: Research Square
+  start_date: May 2015
+  end_date: Present
+  projects:
+    - name: American Journal Experts Backend
+      details: |
+        The AJE backend is a large, monolithic beast of an application with portions of the code dating back to the mid-2000s.
+        Everything that the company needed for supporting customers, employees and contractors was placed into the application.
+        By the time I joined, there was already a large effort underway to correct this and pull out bits of the application into
+        microservices. I've been part of the effort to support this application in the transition to microservices as well as
+        contribute to pulling out pieces and refactoring. It's a massive effort and it is paying off.
+      category: Web Application Development
+      badges: [php, mysql, zend, mvc, ddd, git, linux, aws-ec2, aws-s3, aws-sqs, remote]
+      roles: [Software Engineer (Team)]
+    - name: American Journal Experts Localized Sites
+      details: |
+        Research Square customers live around the world and speak a variety of languages. In order to offer services to these
+        markets, we setup a series of microsites in Jekyll that are catered to customers in that region. The sites are similar,
+        but differ in language and certain content so we have to use internationalization and some build tricks to create multiple
+        sites from a shared code-base.
+      category: Web Development
+      badges: [jekyll, html, less, javascript, emcascript6, ruby, grunt, ant, i8ln, aws-s3, ci, remote]
+      roles: [Software Engineer (Team), Front-end Developer]
+    - name: Tools Development
+      details: |
+        As part of supporting the development efforts of Research Square, I've worked on a variety of tools used by my co-workers.
+        In specific, I worked on supporting existing API wrappers and well as developing new ones.
+      category: Web Application Development
+      badges: [php, rest, zend, mvc, ddd, git, linux, aws-ec2, aws-sqs, remote]
+      roles: [Software Engineer (Team)]
+- company: Coin Flip Games
+  start_date: June 2013
+  end_date: Present
+  projects:
+    - name: Marketing Websites
+      details: |
+        Coin Flip Games needs to promote our games and I provided the platforms to do so. I build several sites for our company
+        and individual games using the jekyll platform. The sites are build using continuous integration and pushed to AWS S3
+        and delivered via CloudFlare CDN.
+      category: Web Development
+      badges: [jekyll, html, less, javascript, emcascript6, emscripten, ci, aws-s3]
+      roles: [Software Engineer, Front-end Developer]
+    - name: Bitmite Blitz
+      details: |
+        In order to branch out and experiment on new platforms, Coin Flip Games took to mobile with Bitmite Blitz. It's an
+        infinite runner with a global leaderboard and 50 achievements to unlock.
+        <a href="https://bitmiteblitz.coinflipgames.co">Read more about the game here.</a>
+      category: Game Development
+      badges: [unity, csharp, golang, rest, heroku, postgresql, git, ci, photoshop, android, ios, remote]
+      roles: [Tools Engineer, Web Application Developer, Database Administrator, Artist, Producer]
+    - name: Top Snake
+      details: |
+        Coin Flip Games' first full release. It's a top-down 2D arcade game in the style of the classic Snake, but with a twist.
+        <a href="https://topsnake.coinflipgames.co">Read more about the game here.</a>
+      category:
+      badges: [love2d, lua, photoshop, git, windows, osx, linux, remote]
+      roles: [Software Engineer (Team), Artist, Producer]
+- company: Geographic Research
+  start_date: November 2013
+  end_date: April 2015
+  projects:
+    - name: Simplymap
+      details: |
+        Simplymap is a web-based mapping software that deals with demographic, business and marketing data. I worked on various features,
+         bugs and sub-projects on a weekly release cycle.
+      category: Web Application Development
+      badges: [php, postgresql, javascript, hg, web, linux, remote]
+      roles: [Software Engineer (Team)]
+- company: Total Benchmark Solution
+  start_date: March 2012
+  end_date: November 2013
+  projects:
+    - name: Medical Complication Analysis
+      details: |
+        I was the lead developer on a project to collect, aggregate and perform statistical analysis on Medical Complications. I added
+        onto an existing web application the ability to process these complications for large sets of patient data (sometimes up to 20
+        million rows). This data was then queried and displayed for use by Hospital and Health System Administration to determine problems.
+        For this project, I was required to design the overall structure of the report, create extendable models and write efficient MySQL
+        queries through our existing PHP MVC Framework.
+      category: Web Application Development
+      badges: [php, mysql, javascript, html, css, svn, web, windows]
+      roles: [Software Engineer (Team), Database Administrator, Front-end Developer]
+    - name: Person-Based Health Record Analysis
+      details: |
+        I was the lead developer on this project to replace an existing code base used to report Patient Data across Hospital visits.
+        The new system was able to process the patient data and report it in a clean, searchable interface. My responsibilities included
+        design of new data structures, the overall architecture and import/export process, customer training and implementation.
+      category: Web Application Development
+      badges: [php, mysql, javascript, html, css, svn, web, windows]
+      roles: [Software Engineer (Team), Database Administrator, Front-end Developer]
+    - name: Medical Marketing System
+      details: |
+        I was the sole designer, developer and owner of this project. I was tasked with updating the existing marketing and meta-data
+        system for Hospital and Health Systems. I met with managers to determine the requirements, determined the best practices and tools
+        to use, designed the database structure and corresponding models, designed and created the user interfaces and front-end.
+        Additionally, I created an internal wrapper for the Fedex Shipping and Tracking API using PHP SOAP with wsdl requests. During the project,
+        I worked with the testers to come up with a test plan and created a schedule for internal release.
+      category: Web Application Development
+      badges: [php, mysql, javascript, html, css, svn, web, windows]
+      roles: [Software Engineer (Team), Database Administrator, Front-end Developer]
+- company: Hewlett Packard
+  start_date: May 2008
+  end_date: October 2011
+  projects:
+    - name: Performance Benchmarking
+      details: |
+        I worked on a team with other interns to build prototype and released HP workstation computers to specifications and perform a variety of
+        benchmarks on them. The benchmarks tested things like CPU, Graphics and memory performance for internal review as well as data for
+        marketing materials. We participated in the <a href="http://spec.org/">SPEC</a> organization benchmarks as well as others for specific
+        clients such as the military. Internal benchmarking required building workstations using prototype components in order to assess their
+        capabilities and often to troubleshoot issues that could occur.
+      category: Internship
+      badges: [hardware, benchmarking, windows, linux]
+      roles: [Performance Tech]
+    - name: Inventory and Asset Tracker
+      details: |
+        I was the sole designer, developer and owner of this project. I created a web application to track Workstation computers and components
+        for internal and external use. The entire system was able to track a computer and all the components locations over time and provide decision
+        support on allocation. I was able to provide an initial release after just three months and then keep up with a two week release cycle for updates.
+      category: Internship
+      badges: [php, mysql, javascript, html, css, web, windows, linux]
+      roles: [Software Engineer, Database Administrator]
+    - name: Multi-threaded Benchmark
+      details: |
+        My primary role at Hewlett Packard was to do performance benchmarking of workstations. There was a gap in tests for Multi-threaded
+        Benchmarks that only tested the CPU and only took a short period of time to run (SPEC CPU ran over a period of 3 days on average). A co-worker and
+        I created a simple, internal use benchmark to test CPU integer and floating point performance on many threads. The prototype was written in Java and
+        then ported to C++ for better performance.
+      category: Internship
+      badges: [java, cpp, windows, osx, linux]
+      roles: [Software Engineer (Team)]

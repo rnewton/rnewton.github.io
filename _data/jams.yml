@@ -1,0 +1,105 @@
+- name: Mathematica Arcana
+  event: Ludum Dare 35
+  date: April 2016
+  details: |
+    A quick, but polished game created in Unity for the theme 'Shapeshift'. The gist of the game is that you play as a shapeshifting
+    polygon that has been assigned the duty to protect the Mathematica Arcana from the shapeless blobs that want to steal it. We got some
+    really good feedback and our best scores to date on this game with the simple mechanics
+
+    You can see the original jam entry <a href="http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=24886" target="_blank">here</a>
+  badges: [unity, csharp, photoshop, git, bosca-ceoil]
+  roles: [Designer (Team), Software Engineer (Team), Artist, Musician]
+- name: Bitmite Blitz
+  event: Ludum Dare 29
+  date: May 2014
+  details: |
+    Bitmite Blitz started out life as a game jam game made in less than 72 hours for the theme 'Beneath the Surface'.
+    What we ended up with was a basic, but very polished game. Fellow jammers provided some excellent feedback, including
+    "Really good stuff! Amazing polish for the allotted time." and "I keep coming back to this game to try to beat my score.".
+
+    Expanding on the work done for Ravenous Ravenous Raptors, we added achievements and an interactive tutorial to the game-- Rarely
+    seen features in game jams. You can see the original jam entry
+    <a href="http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&uid=31135" target="_blank">here.</a>
+  badges: [unity, csharp, php, mysql, photoshop, svn, bosca-ceoil, windows, osx, web]
+  roles: [Designer (Team), Software Engineer (Team), Artist, Musician]
+- name: Ravenous Ravenous Raptors
+  event: Bacon Game Jam 7
+  date: April 2014
+  details: |
+    Coin Flip Games participated for the second time in the Bacon Game Jam. Given the theme 'Hunger' we came up with a unique game idea.
+    The result can be best described as "Reverse Hungry Hungry Hippos... with raptors". During this jam, we also added a global scoreboard
+    API using PHP, MySQL and HMAC message passing.
+  badges: [unity, csharp, php, mysql, blender, photoshop, svn, garage-band, web]
+  roles: [Designer (Team), Software Engineer (Team), Artist, 3D Modeling, Musician]
+- name: Upsanity
+  event: Global Game Jam 2014
+  date: January 2014
+  details: |
+    Coin Flip Games travelled to Denver to participate in the largest Global Game Jam ever. We created a game based on the theme
+    "We don't see things as they are, we see them as we are." We took that to a very literal direction and made a fast-paced, arcardey
+    style game about an insane asylum patient with delusions of being an elevator. I spent the first half of the jam creating the art assets.
+    The remainder was spent implementing the elevator mechanic primarily.
+  badges: [unity, csharp, photoshop, git, web]
+  roles: [Designer (Team), Software Engineer (Team), Artist]
+- name: Get a Job
+  event: Ludum Dare 28
+  date: December 2013
+  details: |
+    A game made with the rest of the Coin Flip Games team, in 72 hours for Ludum Dare 28. The game is a simply restaurant management game
+    where you only get one day to prove that you have what it takes to run this cafe. My contribution to this game was primarily creating
+    art assets, adding effects, designing the UI and creating the game ambience.
+  badges: [unity, csharp, photoshop, git, windows, osx, web]
+  roles: [Designer (Team), Software Engineer (Team), Artist]
+- name: Leprechaun Legacy
+  event: Bacon Game Jam 6
+  date: November 2013
+  details: |
+    Bacon Game Jam is an occassional Game Jam organized for and by some users of reddit.com. Coin Flip Games joined and created the rainbow
+    themed Leprechaun Legacy. The game is a simple tower defense game with the simple goal of preventing humans from following the rainbow
+    to the pot o' gold.
+  badges: [unity, csharp, photoshop, git, garage-band, web]
+  roles: [Designer (Team), Software Engineer (Team), Artist, Musician]
+- name: From The Woods
+  event: The Walking Dead Game Jam
+  date: October 2013
+  details: |
+    A Top Down Hack-n-Slash game made with my team for the Walking Dead Game Jam. It was our first time creating a game together using 3D assets.
+     We only had 2 weeks to put together a game in our spare time, but we managed to get our endless survival game to be fun and addictive; with
+     graphical nostalgia of the N64 era.
+  badges: [unity, csharp, blender, photoshop, git, web]
+  roles: [Designer (Team), Software Engineer (Team)]
+- name: The Aberrant Gerent
+  event: The Arbitrary Game Jam
+  date: Sep 2013
+  details: |
+    A game made in about 8 hours using Löve. It's a simple game designed to feel somewhat hectic since the pressure of creating a game in such a
+    short period of time has that effect. View the code and read more about the project on <a href="https://github.com/rnewton/tag" target="_blank">Github</a>
+  badges: [love2d, lua, photoshop, windows, osx]
+  roles: [Designer, Software Engineer, Artist, Sound Effects Artist]
+- name: Owned in 10 Seconds
+  event: Ludum Dare 27
+  date: August 2013
+  details: |
+    My First entry into the 48-hour Game Creation Competition, Ludum Dare. Also my second complete game using Unity 3D. The theme was "10 seconds" and I came
+    up with a game that I would call the "Hollywood Hacking Simulator". The game features a command line interface used to send malicious packets and other
+    attacks against your opponents, online via random match making or offline against a bot. I used blender to create some 3D models, Photoshop for all the
+    texturing and C# for the scripting.
+  badges: [unity, csharp, blender, photoshop, windows, osx, web]
+  roles: [Designer, Software Engineer, Artist, 3D Modeling, Sound Effects Artist]
+- name: The Emerald Gale
+  event: iamagamer Jam
+  date: July 2013
+  details: |
+    My first Game Jam and also my first use of Unity 3D. I created this game for the iamagamer inaugural game jam. The theme was "Women in Gaming" to refute
+    the claim that women can't have the lead role in video games. I quickly threw together a simple enough mechanic and learned Unity as I went in this 48-hour
+    competition.
+  badges: [unity, csharp, photoshop, web]
+  roles: [Designer, Software Engineer, Artist]
+- name: Snaaake!
+  event: prototype
+  date: May 2013
+  details: |
+    This is the original Snaaake! Written in 3 days using Löve. It is essentially the prototype for Top Snake. This version is missing a few features of the
+    second version, but does have a more arcade feel and is open source. Check out the code on <a href="https://github.com/rnewton/Snaaake" target="_blank">Github</a>
+  badges: [love2d, lua, git']
+  roles: [Designer, Software Engineer]

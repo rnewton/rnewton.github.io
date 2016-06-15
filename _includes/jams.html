@@ -1,0 +1,20 @@
+{% for jam in site.data.jams %}
+    <div class="row jam">
+        <div class="col-md-3 pull-left">
+            <h4>{{ jam.event }}</h4>
+            <strong>{{ jam.date }}</strong>
+        </div>
+        <div class="col-md-9">
+            <h5>{{ jam.name }}</h5>
+            <ul class="list-inline">
+                {% for role in jam.roles %}
+                    <li class="role">{{ role }}</li>
+                {% endfor %}
+            </ul>
+            {{ jam.details | markdownify }}
+            {% for badge in jam.badges %}
+                <span class="badge {{badge}}">{{ badge }}</span>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}

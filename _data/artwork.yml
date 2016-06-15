@@ -1,0 +1,10 @@
+- name: Bitmite Blitz
+  images:
+    - src: img/BitmiteBlitz-HalfSheet.png
+      caption: Promotional artwork for Bitmite Blitz
+- name: Shuffle Grand Prix
+  images:
+    - src: img/ShuffleGrandPrix-ProceduralTrack1.png
+      caption: Procedurally generated race track 2D prototype
+    - src: img/ShuffleGrandPrix-ProceduralTrack2.png
+      caption: Procedurally generated race track 2D prototype

@@ -1,0 +1,24 @@
+{% for job in site.data.jobs %}
+    <div class="row">
+        <div class="col-md-3 pull-left">
+            <h4>{{ job.company }}</h4>
+            <strong>{{ job.start_date }} &rarr; {{ job.end_date }}</strong>
+        </div>
+        <div class="col-md-9">
+            {% for project in job.projects %}
+                <div class="project {{ project.category | slugify }}">
+                    <h5>{{ project.name }}</h5>
+                    <ul class="list-inline">
+                        {% for role in project.roles %}
+                            <li class="role">{{ role }}</li>
+                        {% endfor %}
+                    </ul>
+                    {{ project.details | markdownify }}
+                    {% for badge in project.badges %}
+                        <span class="badge {{badge}}">{{ badge }}</span>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
